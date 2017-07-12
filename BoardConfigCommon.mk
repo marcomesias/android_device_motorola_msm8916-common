@@ -101,9 +101,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Properties
 TARGET_SYSTEM_PROP += $(VENDOR_PATH)/system.prop
 
-# Qualcomm support
-BOARD_USES_QCOM_HARDWARE := true
-
 # Radio
 BOARD_PROVIDES_LIBRIL := true
 BOARD_PROVIDES_RILD := true
@@ -118,7 +115,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RELEASETOOLS_EXTENSIONS := $(VENDOR_PATH)
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 
 # Wifi
