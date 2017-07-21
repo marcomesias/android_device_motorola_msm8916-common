@@ -8,5 +8,3 @@ allow init logs_block_device:blk_file setattr;
 allow init firmware_file:dir mounton;
 allow init fsg_file:dir mounton;
 allow init pstorefs:dir mounton;
-
-allow init system_file:dir  { relabelfrom };
