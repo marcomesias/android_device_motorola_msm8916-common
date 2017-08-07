@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_PACKAGES += \
     camera.msm8916 \
     libbson \
-    Camera2
 
 # CMActions
 PRODUCT_PACKAGES += \
