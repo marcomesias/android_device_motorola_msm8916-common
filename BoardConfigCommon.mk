@@ -69,6 +69,9 @@ BOARD_NO_CHARGER_LED := true
 #BOARD_USES_CYANOGEN_HARDWARE := true
 #BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 
+# Dex
+WITH_DEXPREOPT := false
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
@@ -82,6 +85,9 @@ USE_OPENGL_RENDERER := true
 # FM
 BOARD_HAVE_QCOM_FM := true
 TARGET_QCOM_NO_FM_FIRMWARE := true
+
+ # Qualcomm support
+BOARD_USES_QCOM_HARDWARE := false
 TARGET_USES_QCOM_BSP := true
 
 # Filesystem
